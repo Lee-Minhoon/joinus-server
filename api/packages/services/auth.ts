@@ -10,7 +10,7 @@ import {
 } from "../models";
 import { TransactionManager } from "../modules";
 import { Nullable } from "../types";
-import { CheckEmailParams } from "./../models/auth";
+import { CheckEmailParams } from "../models/auth";
 
 export interface IAuthService {
   me: (id: number) => Promise<User>;

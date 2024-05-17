@@ -1,4 +1,4 @@
-import { Nullable } from "../types";
+import { Nullable } from ".";
 
 export class SuccessResponse<T> {
   private _status: number;

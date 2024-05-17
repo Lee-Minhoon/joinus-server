@@ -3,7 +3,7 @@ import Errors from "../constants/errors";
 import { ClubChat, ClubChatConverter, ClubChatDto } from "../models";
 import { TransactionManager } from "../modules";
 import { Nullable } from "../types";
-import { CursorDto } from "./../types/response";
+import { CursorDto } from "../types/response";
 
 export interface IClubChatService {
   findAllByClub(

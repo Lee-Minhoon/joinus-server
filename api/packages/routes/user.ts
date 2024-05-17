@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { IUserController } from "../controller";
 import Docs from "../docs";
-import { IClubController } from "./../controller/club";
+import { IClubController } from "../controller/club";
 
 const userRoutes = (
   userController: IUserController,

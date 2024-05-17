@@ -13,7 +13,7 @@ import {
 } from "../models";
 import { TransactionManager } from "../modules";
 import { Nullable } from "../types";
-import { CursorDto } from "./../types/response";
+import { CursorDto } from "../types/response";
 
 export interface ICommentService {
   find(id: number): Promise<Nullable<CommentDto>>;
